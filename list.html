@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is my first website">
+        <title>List</title>
+    </head>
+
+<!--link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/!--> 
+<style>
+    .blue-text {color: blue;}
+    .red-text {
+        color: red;
+        font-size: 18px;
+    }
+    .khaki-bg {background-color: khaki;}
+    li {
+        font-size: 22px;
+        font-family: trueno;
+        }
+    dd {font-family: Dancing Script, poppins;
+        font-size: small;
+    }
+
+    .green-border {
+        border-color: lawngreen;
+        border-width: 15px;
+        border-style: solid;
+    }
+
+    .box-padding {
+        border-color: rgb(234, 241, 227);
+        border-width: 15px;
+        border-style:solid ;
+        border-radius: 10px;
+        background-color: rgb(234, 241, 227);
+        
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-right: 10em;
+    }
+        
+    }
+</style>
+    <body>
+        <h2 class="red-text">
+            List ul (unordered list), ol (ordered list), dl (description list)
+        </h2>
+
+        <ul>
+            <li class="blue-text"><a href="structureindex.html">apple</a></li>
+            <li>orange</li>
+            <li class="blue-text">mango</li>
+        </ul>
+        <ol type="i">
+            <li><a href="structureindex.html">apple</a></li>
+            <li>orange</li>
+                <ul>item1</ul>
+            <li class="green-border" >mango</li>
+        </ol>
+        <dl>
+            <dt><b>Apple</b></dt>
+            <dd>Round red</dd>
+            <dt class="box-padding"><i>Orange</i></dt>
+            <dd>Round orange</dd>
+
+        </dl>
+
+        <h2>Tables</h2>
+
+        <table>
+            <thead>
+                <caption><h3>Table title</h3></caption>
+                <tr>
+                    <th>t.header1</th>
+                    <th>t.header2</th>
+                    <th>t.header3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>t.data1</td>
+                    <td>t.data2</td>
+                    <td>t.data3</td>
+                    <td>additional data for table response</td>
+                </tr>
+                <tr>
+                    <td>t.data4</td>
+                    <td colspan="2">t.data5</td>
+                    <td>t.data6</td>
+                </tr>
+             </tbody>
+
+        </table>
+
+    </body>
+</html>
